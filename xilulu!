@@ -1,0 +1,3 @@
+    boolean durable = false; 
+    boolean transactional = false; 
+    String jndiCtxFactory = null; 
