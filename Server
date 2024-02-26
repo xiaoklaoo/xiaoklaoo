@@ -1,0 +1,3 @@
+# WebLogic Application Server host and port 
+#jndiCtxFactory="weblogic.jndi.WLInitialContextFactory" 
+#providerURL="t3://jndihost.domain.com:80" 
