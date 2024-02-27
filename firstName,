@@ -1,0 +1,5 @@
+			// Create and return a Sample User Implementation 
+            return new SampleUserImpl( 
+                loginId, 
+                password, 
+                firstName, 
