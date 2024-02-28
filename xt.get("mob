@@ -1,0 +1,6 @@
+  String mobileId = (String)apiContext.get("mobileId"); 
+  Integer modelId = (Integer)apiContext.get("modelId"); 
+  ... 
+ 
+  // Save the ApiContext Hashtable in the Session 
+  session.setAttribute("API_CONTEXT", apiContext); 
