@@ -1,0 +1,5 @@
+else 
+{ 
+  // Authentication successful 
+  Hashtable apiContext = (Hashtable)response.get("apiContext"); 
+  Integer subscriberId = (Integer)apiContext.get("subscriberId"); 
