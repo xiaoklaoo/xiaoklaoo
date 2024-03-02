@@ -1,0 +1,6 @@
+    for line in lines:
+        img_lable_name = line.split()
+        image = face_recognition.load_image_file(libpath + str(img_lable_name[0]))
+        face_locations = face_recognition.face_locations(image)
+        # face_locations = face_recognition.face_locations(image, model='cnn')
+ 
