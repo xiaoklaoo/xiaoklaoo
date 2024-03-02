@@ -1,0 +1,6 @@
+    known_face_encodings, known_face_names = [], []
+    with open(libpath + 'liblist.txt', 'r') as f:
+        lines = f.readlines()
+    for line in lines:
+        img_lable_name = line.split()
+        image = face_recognition.load_image_file(libpath + str(img_lable_name[0]))
