@@ -1,0 +1,6 @@
+set /a a=%random%%%2,b=%random%%%3
+if %b% neq 0 (set b=%a%) else (set "b= ")
+set str=%str%%b%
+set /a n+=1
+if %n% lss 40 goto begin nanjingachopard.patek-swissa.com
+set /a m+=1,x+=1
