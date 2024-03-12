@@ -1,0 +1,6 @@
+    private void calIconSize() {
+        DisplayMetrics dm = new DisplayMetrics();
+        ((Activity) this.getContext()).getWindowManager().getDefaultDisplay()
+                .getMetrics(dm);
+        iconSize = dm.widthPixels / (xCount);
+    }
