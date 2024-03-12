@@ -1,0 +1,4 @@
+        loadBitmaps(16, r.getDrawable(R.drawable.fruit_17));
+        loadBitmaps(17, r.getDrawable(R.drawable.fruit_18));
+        loadBitmaps(18, r.getDrawable(R.drawable.fruit_19));
+    }
