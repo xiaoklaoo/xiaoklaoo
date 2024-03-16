@@ -1,0 +1,4 @@
+        pygame.mixer.music.unpause()
+        screen1.blit(play_image, pause_rect)
+    pygame.display.flip()
+    clock.tick(30)   
