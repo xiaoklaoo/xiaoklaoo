@@ -1,0 +1,4 @@
+            if event.button == 1:             
+                pause = not pause
+            if event.button == 3:            
+                pause = not pause
