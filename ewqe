@@ -1,0 +1,5 @@
+    screen1.fill(bg_rgb)
+    if pause:
+        pygame.mixer.music.pause()
+        screen1.blit(pause_image, pause_rect)
+    else:
