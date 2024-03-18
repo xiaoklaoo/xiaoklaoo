@@ -1,0 +1,4 @@
+            x = d*p;
+            y = e*p;
+        }
+        long useTime = System.currentTimeMillis()-start;
