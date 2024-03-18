@@ -1,0 +1,3 @@
+        double p,x,y;
+        for(int i=0;i<10000000;i++){
+            p = a*b/3*4*a;
