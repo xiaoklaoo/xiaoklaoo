@@ -1,0 +1,4 @@
+        PrintStream ps = System.out;
+        ps.println("Java I/O流");
+        ps.println("Java 666");
+        ps.println(123);
