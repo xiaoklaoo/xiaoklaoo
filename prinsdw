@@ -1,0 +1,4 @@
+        System.out.println("Java I/O流");
+        System.out.println("Java 666");
+        System.out.println(999);
+    }
