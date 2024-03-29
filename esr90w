@@ -1,0 +1,4 @@
+@Service public class DingTalkAlarmService {
+
+    @Value("${dingtalk.webhook}") private String webhook;
+    @Value("${dingtalk.secret}") private String secret; public void sendMessage(String content) { try {
