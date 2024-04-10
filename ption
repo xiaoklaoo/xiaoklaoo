@@ -1,0 +1,3 @@
+    public static <T> Optional<T> of(T value) {
+        return new Optional<>(value);
+    }
